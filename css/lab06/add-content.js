@@ -21,6 +21,6 @@ else{ text ="ERROR. go away please. this page meant to be for basketball lovers 
 window.alert(text)
 } 
 q2 = prompt("how old are you?")
-if (q2 => '18'|| q2< '18'){ text = ("Have Fun");
+if (q2 => '18'|| q2< '18'){ text = ("Have.Fun");
 }
 
