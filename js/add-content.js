@@ -1,13 +1,26 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-if (hourNow > 18) {
- greeting = 'Good evening, Class!';
- } else if (hourNow > 12) {
- greeting = 'Good afternoon, Class!';
- } else if (hourNow >= 0) {
- greeting = 'Good morning!';
- } else {
- greeting = 'Something went wrong!';
- }
-document.write('<h3>'+greeting+'</h3>');
+var q ;
+var qu2;
+var text;
+var wr;
+var q2;
+
+q = prompt("who is your favourite singer?!")
+if (q == 'nancy') {text = ("wow me too.!");
+ window.alert(text);
+}
+
+else { text = "next time choose nancy please!";
+window.alert(text);
+}
+
+qu2 = prompt ("do you love basketball? ")
+if (qu2 == 'yes'){ text="you are in the right place";
+window.alert(text)
+}
+else{ text ="ERROR. go away please. this page meant to be for basketball lovers only";
+window.alert(text)
+} 
+q2 = prompt("how old are you?")
+if (q2 => '18'|| q2< '18'){ text = ("Have Fun");
+}
+
